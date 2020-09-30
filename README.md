@@ -1,2 +1,7 @@
-# epidemic-predict
-a model for epidemic prediction
+## Epidemic-predict
+                         --a model for epidemic prediction
+本模型主要是使用经典的LSTM网络在时间序列上对每天增加的感染病人数进行预测，当然涉及到很多实验数据预处理的部分（见data_process），同时为了提高性能用GCN网络做了特征提取。
+## 主要问题
+1. 数据偏少，或者说用到的数据过少，导致训练效果不是很理想。
+2. 网络结构偏简单，无法有效的拟合各特征与日感染病人数之间的复杂关系。
+
